@@ -13,4 +13,5 @@ variable "parameters" {
     {name = "demo3", value = "demo3" , type = "String"},
     {name = "demo4", value = "demo4" , type = "String"},
   ]
-} 
+}
+
