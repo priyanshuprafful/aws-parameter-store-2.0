@@ -16,11 +16,11 @@
 # }
 variable "params_map" {
   default = {
-    "roboshop.dev.frontend.catalogue_url" = { value = "http://catalogue-dev.devopspro.fun:8080/;", type = "String" },
-    "roboshop.dev.frontend.user_url" = { value = "http://user-dev.devopspro.fun:8080/;", type = "String" },
-    "roboshop.dev.frontend.cart_url" = { value = "http://cart-dev.devopspro.fun:8080/;", type = "String" },
-    "roboshop.dev.frontend.payment_url" = { value = "http://payment-dev.devopspro.fun:8080/;", type = "String" },
-    "roboshop.dev.frontend.shipping_url" = { value = "http://shipping-dev.devopspro.fun:8080/;", type = "String" },
+    "roboshop.dev.frontend.catalogue_url" = { value = "http://catalogue-dev.devopspro.fun:8080/", type = "String" },
+    "roboshop.dev.frontend.user_url" = { value = "http://user-dev.devopspro.fun:8080/", type = "String" },
+    "roboshop.dev.frontend.cart_url" = { value = "http://cart-dev.devopspro.fun:8080/", type = "String" },
+    "roboshop.dev.frontend.payment_url" = { value = "http://payment-dev.devopspro.fun:8080/", type = "String" },
+    "roboshop.dev.frontend.shipping_url" = { value = "http://shipping-dev.devopspro.fun:8080/", type = "String" },
 
 
 
