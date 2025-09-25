@@ -30,7 +30,7 @@ variable "params_map" {
 
     "roboshop.dev.catalogue.mongo" = { value = "true", type = "String" } ,
 
-    "roboshop.dev.cart.mongo_url" = { value = "mongodb://mongodb-dev.devopspro.fun:27017/catalogue", type = "String" } ,
+    "roboshop.dev.catalogue.mongo_url" = { value = "mongodb://mongodb-dev.devopspro.fun:27017/catalogue", type = "String" } ,
 
 
 
@@ -68,7 +68,7 @@ variable "params_map" {
 
     #passwords will never part of git repos , usually in orgs we create them manually , meaning whom ever have access they  will provision these secrets in parameter store
 
-    "roboshop.dev.payment.amqp_pass" = { value = "roboshop123", type = "SecureString" } 
+    "roboshop.dev.payment.amqp_pass" = { value = "roboshop123", type = "SecureString" }
 
 
 
