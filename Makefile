@@ -1,7 +1,7 @@
 dev:
 	git pull
 	@rm -rf .terraform
-	@terraform init 
+	@terraform init
 	@terraform apply -auto-approve
 
 

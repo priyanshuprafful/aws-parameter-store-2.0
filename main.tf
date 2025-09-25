@@ -68,7 +68,7 @@ variable "params_map" {
 
     #passwords will never part of git repos , usually in orgs we create them manually , meaning whom ever have access they  will provision these secrets in parameter store
 
-    "roboshop.dev.payment.amqp_pass" = { value = "roboshop123", type = "SecureString" } ,
+    "roboshop.dev.payment.amqp_pass" = { value = "roboshop123", type = "SecureString" } 
 
 
 
